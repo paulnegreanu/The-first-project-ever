@@ -1,0 +1,65 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #e8b278;
+}
+
+.container {
+  max-width: 20rem;
+  background-color: #9f6426;
+  border-radius: 5px;
+  box-shadow: 5px 5px #733f08;
+  color: #ffd8af;
+}
+
+.btn {
+  background-color: #733f08;
+  border-color: #733f08;
+  color: #ffd8af;
+}
+
+.btn:hover {
+  background-color: #ffd8af;
+  border-color: #ffd8af;
+  color: #733f08;
+}
+
+.form-control {
+  background-color: #733f08;
+  border-color: #733f08;
+  color: #9f6426;
+}
+
+#returnlink {
+  color: #9f6426;
+  width: 2%;
+}
+
+#floatingInput1::placeholder {
+  color: #9f6426;
+}
+
+#floatingInput2::placeholder {
+  color: #9f6426;
+}
+
+#floatingInput4::placeholder {
+  color: #9f6426;
+}
+
+#firstname,
+#lastname,
+#dateofbirth,
+#email,
+#submit {
+  align-items: center;
+  flex-direction: column;
+}
+
+#submit {
+  margin: 20px 100px 20px;
+  flex-direction: row;
+  align-items: center;
+}
